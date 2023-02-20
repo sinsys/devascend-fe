@@ -3,8 +3,8 @@
 </script>
 
 <nav>
-	<a href="/">home</a>
-	<a href="/mentors/nicholas-hazel">Nicholas</a>
+	<a href="/">Home</a>
+	<a href="/mentors">Mentors</a>
 </nav>
 
 <slot />
