@@ -3,6 +3,7 @@
   - [Mentorship](#mentorship)
   - [Developing](#developing)
   - [Building](#building)
+  - [Deployment](#deployment)
   - [FAQ](#faq)
     - [What is a mentor?](#what-is-a-mentor)
     - [What challenges exist?](#what-challenges-exist)
@@ -74,6 +75,11 @@ You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
 
+## Deployment
+
+This project is setup with CI/CD in place. We leverage AWS Amplify for simplicity and route to a custom domain hosted with Route53.
+In order to merge your changes live, please create a pull request to the `main` branch and the rest will automatically occur.
+
 ## FAQ
 
 ### What is a mentor?
@@ -101,4 +107,3 @@ There are a number of challenges that junior developers may face when trying to 
 - **Limited interview skills**: Junior developers may not have had as much experience with job interviews, which can make them nervous or unprepared. They may struggle to articulate their skills and experience in a way that makes them stand out from other candidates.
 
 With persistence, dedication, and a willingness to learn and improve, junior developers can develop the skills and experience they need to land their first job in the field. Seeking out mentorship, building their skills through personal projects, and networking with other professionals can all help junior developers stand out and get noticed by potential employers.
-
